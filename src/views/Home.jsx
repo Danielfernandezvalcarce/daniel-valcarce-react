@@ -1,11 +1,11 @@
-import { Header } from "../components/Header";
-import { Footer } from "../components/Footer";
-
-export function Home() {
+function Home() {
     return (
         <>
-        <Header />
-        <Footer />
+            <main class="bg-danger">
+                <h1 class="text-black">MAIN DE LA PAGINA PRINCIPAL</h1>
+            </main>
         </>
     );
 }
+
+export default Home;
