@@ -11,45 +11,21 @@ import Twitter from '../assets/img/gorjeo40x40.png'
 
 export function Footer() {
   return (
-    <footer class="py-5 bg-dark">
-      <div id="parte1" class="text-light">
-        <div id="masInfo">
-          <h3><b>Mas informacion</b></h3>
-          <ul>
-            <li>
-              <img src={TwitterLogo} height="20px" width="20px" alt="Twitter"/> Twiter
-            </li>
-            <li>
-              <img src={GithubLogo} height="20px" width="20px" alt="Github"/>
-              <a href="#" class="text-white text-decoration-none">GitHub</a>
-            </li>
-            <li>
-              <img src={LinkedinLogo} height="20px" width="20px" alt="Linkedin"/>
-              <a href="linkedin.com/in/daniel-f-valcarce" class="text-white text-decoration-none">Linkedin</a>
-            </li>
-          </ul>
-        </div>
-        <div id="logo">
-          <img src="img/logoSinFondo.png" alt="Logo Daniel Valcarce" />
-        </div>
-        <div id="recursos">
-          <h3><b>Recursos</b></h3>
-          <ul>
-            <li><a href="https://allmylinks.com/dvalcarce93" class="text-white text-decoration-none">Contact</a></li>
-            <li><a href="#" class="text-white text-decoration-none">Poner algo</a></li>
-            <li><a href="#" class="text-white text-decoration-none">Noticias</a></li>
-          </ul>
-        </div>
-      </div>
+    <footer class="pt-5 bg-dark">
       <div id="parte2" class="text-light">
         <div id="esp">
           <img src={Espana} alt="" height="90px" width="90px" />
-          <p>© 2022-2023 danielvalcarce.com</p>
+          <p>© danielvalcarce.com</p>
         </div>
         <div id="tyc">
-          <a href="#" class="link-light">Terminos y condicones</a>
-          <a href="#" class="link-light">Informacion legal</a>
-          <a href="#" class="link-light">Privacidad</a>
+          <div>
+            <img src={LinkedinLogo} height="20px" width="20px" alt="Linkedin"/>
+            <a href="linkedin.com/in/daniel-f-valcarce" class="text-white text-decoration-none">Linkedin</a>
+          </div>
+          <div>
+            <img src={GithubLogo} height="20px" width="20px" alt="Github"/>
+            <a href="#" class="text-white text-decoration-none">GitHub</a>
+          </div>
         </div>
         <div id="rss">
           <img src={AppleLogo} alt="Apple" height="40px" width="40px" />

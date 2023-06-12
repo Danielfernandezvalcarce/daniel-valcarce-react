@@ -3,7 +3,7 @@ import { BrowserRouter as Routes, Route } from 'react-router-dom';
 
 export function Header() {
   return (
-    <header class="bg-dark text-white">
+    <header>
         <Navbar />
     </header>
   );

@@ -1,0 +1,9 @@
+nav{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: 700;
+}
+#nombre{
+    font-weight: 900;
+    border-bottom: 3px solid #ffc107; /* Color "warning" de Bootstrap */
+}
