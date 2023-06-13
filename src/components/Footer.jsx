@@ -18,13 +18,13 @@ export function Footer() {
           <p>© danielvalcarce.com</p>
         </div>
         <div id="tyc">
-          <div>
+          <div class="d-flex">
             <img src={LinkedinLogo} height="20px" width="20px" alt="Linkedin"/>
-            <a href="linkedin.com/in/daniel-f-valcarce" class="text-white text-decoration-none">Linkedin</a>
+            <a href="linkedin.com/in/daniel-f-valcarce" class="nav-link">Linkedin</a>
           </div>
-          <div>
+          <div class="d-flex">
             <img src={GithubLogo} height="20px" width="20px" alt="Github"/>
-            <a href="#" class="text-white text-decoration-none">GitHub</a>
+            <a href="#" class="nav-link">GitHub</a>
           </div>
         </div>
         <div id="rss">

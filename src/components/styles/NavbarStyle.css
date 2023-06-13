@@ -7,3 +7,17 @@ nav{
     font-weight: 900;
     border-bottom: 3px solid #ffc107; /* Color "warning" de Bootstrap */
 }
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover{
+    color:white;
+    border-color: #ffc107;
+    text-decoration: underline #ffc107;
+    transition: all 0.3s ease-in-out;
+}

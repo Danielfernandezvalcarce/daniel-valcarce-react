@@ -20,27 +20,27 @@ export function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link class="nav-link text-white" to="/">
+                <Link class="nav-link" to="/">
                   /home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to="/Academic">
+                <Link className="nav-link" to="/Academic">
                   /academic
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to="/Experience">
+                <Link className="nav-link" to="/Experience">
                   /experience
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to="/Volunteer">
+                <Link className="nav-link" to="/Volunteer">
                   /volunteer
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to="/Contact">
+                <Link class="nav-link" to="/Contact">
                   /contact
                 </Link>
               </li>
