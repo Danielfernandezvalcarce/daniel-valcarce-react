@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Academic } from "../Views/Academic";
 import Home from "../Views/Home";
 import { Experience } from "../Views/Experience";
-import { Volunteer } from "../Views/Volunteer";
 import { Contact } from "../Views/Contact";
 import "./styles/NavbarStyle.css";
 
@@ -35,11 +34,6 @@ export function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/Volunteer">
-                  /volunteer
-                </Link>
-              </li>
-              <li className="nav-item">
                 <Link class="nav-link" to="/Contact">
                   /contact
                 </Link>
@@ -53,7 +47,6 @@ export function Navbar() {
         <Route path="/" element={<Home />} />
         <Route path="/Academic" element={<Academic />} />
         <Route path="/Experience" element={<Experience />} />
-        <Route path="/Volunteer" element={<Volunteer />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
     </Router>
