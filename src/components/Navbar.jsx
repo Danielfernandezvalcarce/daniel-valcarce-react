@@ -14,6 +14,7 @@ export function Navbar() {
           <a className="navbar-brand text-white" to="/">
             <h3 id="nombre">
               Daniel Valcarce.
+              <sup>DV</sup>
             </h3>
           </a>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">

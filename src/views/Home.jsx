@@ -1,7 +1,7 @@
 import React from 'react';
-import './styles/HomeStyle.css'
-import './../components/Timeline';
-import Timeline from './../components/Timeline';
+import './styles/HomeStyle.css';
+import { Resume } from '../components/Resume';
+
 
 function Home() {
     return (
@@ -16,7 +16,7 @@ function Home() {
                     </div>
                 </section>
                 <section id="">
-                    <Timeline />
+                    <Resume />
                 </section>
             </main>
         </>
