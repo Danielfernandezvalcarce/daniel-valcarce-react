@@ -1,10 +1,93 @@
 .fade-in {
-    opacity: 0;
-    transition: opacity 0.5s ease, margin-left 0.5s ease;
-    margin-left: -50px; /* Ajusta el valor según el efecto deseado */
-  }
-  
-  .visible {
-    opacity: 1;
-    margin-left: 0;
-  }
+  opacity: 0;
+  transition: opacity 0.5s ease, margin-left 0.5s ease;
+  margin-left: -50px; /* Ajusta el valor según el efecto deseado */
+}
+
+.visible {
+  opacity: 1;
+  margin-left: 0;
+}
+
+.mainDescription {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  color: transparent;
+  border: 2px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+.mainDescription::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 0;
+  height: 0;
+  border-radius: 0.5rem;
+  border-top: 5px solid #ffc107; /* Color "warning" de Bootstrap */
+  border-left: 5px solid #ffc107; /* Color "warning" de Bootstrap */
+  transition: width 0.5s, height 0.5s, border-color 0.5s; /* Duración de la transición */
+  transition-delay: 0.3s; /* Retardo en la transición para lograr el efecto secuencial */
+}
+
+.mainDescription:hover {
+  transition: 1s;
+  color: white;
+  box-shadow: 0 4px 16px 0 #ffc107;
+}
+
+.mainDescription:hover::before {
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+}
+
+.align-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.custom-size-1 {
+  width: 100%;
+  height: 15rem;
+}
+
+.custom-size-2 {
+  width: 50%;
+  height: 30rem;
+}
+
+.custom-size-3 {
+  width: 50%;
+  height: 20rem;
+}
+
+.custom-size-4 {
+  width: 50%;
+  height: 15rem;
+}
+
+.custom-size-5 {
+  width: 50%;
+  height: 25rem;
+}
+
+.custom-size-6 {
+  width: 25%;
+  height: 15rem;
+}
+
+#welcomePortfolio{
+  font-size: 70px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2;
+  text-align: center;
+  margin-top: 50px;
+}

@@ -1,9 +1,24 @@
 #nombreMain{
     font-size: 100px;
-    
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 2;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 8%;
+    margin-bottom: 2%;
 }
+
+.animated-arrow {
+    margin-top: 2%;
+    animation: arrowAnimation 1s infinite alternate;
+  }
+  
+  @keyframes arrowAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(40px);
+    }
+  }
+  
