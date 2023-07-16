@@ -233,3 +233,25 @@
   text-align: center;
   margin-top: 50px;
 }
+
+@media only screen and (max-width: 767px) {
+  .fade-in,
+  .visible {
+    opacity: 1;
+    margin-left: 0;
+  }
+  
+  .contenedor-principal {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+  }
+  
+  .mainDescription {
+    font-size: 1.1rem;
+    border: 1px solid white;
+  }
+  
+}

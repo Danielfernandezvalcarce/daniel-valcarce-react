@@ -34,15 +34,6 @@ footer{
     border-color: gray;
 }
 
-li{
-    margin: 10%;
-}
-
-li:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
 #parte2{
     width: 90%;
     display: flex;

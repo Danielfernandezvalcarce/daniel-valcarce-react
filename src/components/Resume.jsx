@@ -74,10 +74,10 @@ export function Resume() {
       </div>
 
       <div class="mainDescription p-4 custom-size-4">
-        <h4>Volunteer Work</h4>
+        <h4>Volunteer and Community Involvement</h4>
         <p>
           In addition to my professional work, I am actively involved as a
-          volunteer web developer for "Palma Compasiva," a non-profit
+          volunteer web developer since 2022 for "Palma Compasiva," a non-profit
           organization. It brings me great joy to contribute my skills towards
           meaningful causes and make a positive impact in the community.
         </p>
