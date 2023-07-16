@@ -1,6 +1,5 @@
 import React from "react";
 import './styles/FooterStyle.css'
-import TwitterLogo from '../assets/img/twitter20x20.png'
 import GithubLogo from '../assets/img/github20x20.png'
 import LinkedinLogo from '../assets/img/linkedin20x20.png'
 import Espana from '../assets/img/espana.png'
