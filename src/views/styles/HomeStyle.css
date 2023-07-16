@@ -12,6 +12,10 @@
     margin-top: 2%;
     animation: arrowAnimation 1s infinite alternate;
   }
+
+.animated-arrow:hover{
+    cursor: pointer;
+}
   
   @keyframes arrowAnimation {
     0% {

@@ -4,6 +4,20 @@ import { Resume } from "../components/Resume";
 import Flecha from "../assets/img/flecha.png";
 
 function Home() {
+
+  const scrollToSelector = (event, selector) => {
+    event.preventDefault();
+
+    const targetElement = document.querySelector(selector);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleImageClick = (event) => {
+    scrollToSelector(event, '#resume'); // Reemplaza '#resume' con el ID o selector de tu elemento 'Resume'
+  };
+
   return (
     <>
       <main>
@@ -15,11 +29,11 @@ function Home() {
               <h3 class="text-warning">FULL STACK WEB DEVELOPER.</h3>
             </div>
             <div>
-                <img src={Flecha} alt="" width="200px" class="animated-arrow"/>
+                <img src={Flecha} id="flecha" alt="" width="200px" class="animated-arrow" onClick={handleImageClick}/>
             </div>
           </div>
         </section>
-        <section id="">
+        <section id="resume">
           <Resume />
         </section>
       </main>
