@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0eaffc15.css",
+    "main.js": "/static/js/main.511933d9.js",
+    "static/js/787.24f1c0e1.chunk.js": "/static/js/787.24f1c0e1.chunk.js",
+    "static/media/react.png": "/static/media/react.e00de5ff09c16d847d52.png",
+    "static/media/ministerioEducacion.png": "/static/media/ministerioEducacion.a95d61ed1adf3c525223.png",
+    "static/media/python.png": "/static/media/python.07a98139a3638f2a224b.png",
+    "static/media/sql.png": "/static/media/sql.e10b540b6924da3831f5.png",
+    "static/media/sass.png": "/static/media/sass.8e35842e8cea2832173c.png",
+    "static/media/laravel.png": "/static/media/laravel.8b2939ca7ad8851c40a2.png",
+    "static/media/php.png": "/static/media/php.c67d24b47808dc6611ed.png",
+    "static/media/java.png": "/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/espana.png": "/static/media/espana.ae722c8ed0520a4aff79.png",
+    "static/media/html.png": "/static/media/html.cfb2ba4a6b1c3de295bc.png",
+    "static/media/flecha.png": "/static/media/flecha.9edfd30de83ab8492410.png",
+    "static/media/css.png": "/static/media/css.4a6549b8c2b4cda8bb88.png",
+    "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/index.html",
+    "main.0eaffc15.css.map": "/static/css/main.0eaffc15.css.map",
+    "main.511933d9.js.map": "/static/js/main.511933d9.js.map",
+    "787.24f1c0e1.chunk.js.map": "/static/js/787.24f1c0e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0eaffc15.css",
+    "static/js/main.511933d9.js"
+  ]
+}
