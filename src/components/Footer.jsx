@@ -19,11 +19,11 @@ export function Footer() {
         <div id="tyc">
           <div class="d-flex">
             <img src={LinkedinLogo} height="20px" width="20px" alt="Linkedin"/>
-            <a href="linkedin.com/in/daniel-f-valcarce" class="nav-link">Linkedin</a>
+            <a href="https://www.linkedin.com/in/daniel-f-valcarce/" class="nav-link">Linkedin</a>
           </div>
           <div class="d-flex">
             <img src={GithubLogo} height="20px" width="20px" alt="Github"/>
-            <a href="#" class="nav-link">GitHub</a>
+            <a href="https://github.com/Danielfernandezvalcarce" class="nav-link">GitHub</a>
           </div>
         </div>
         <div id="rss">

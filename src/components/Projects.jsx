@@ -28,7 +28,7 @@ export function Projects() {
 
         <div className="project">
           <h4 className="projectTitle">Tu Permanencia (Working on it)</h4>
-          <a href="" className="enlaceProyecto">tupermanencia.com</a>
+          <a href="https://danielvalcarce.com/" className="enlaceProyecto">tupermanencia.com</a>
           <div className="technologies">
             <h5>Technologies:</h5>
             <p>
