@@ -1,0 +1,26 @@
+#interests{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(231, 228, 228);
+    opacity: 0.75;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+#tituloInterests{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 2%;
+    color: black;
+    align-self: center;
+    text-decoration: underline;
+}

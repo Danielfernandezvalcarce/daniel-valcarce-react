@@ -1,4 +1,6 @@
 import "./styles/Academic-DAW-Style.css";
+import ministerioEducacion from "../assets/img/ministerioEducacion.png";
+
 
 export function AcademicDAW() {
   return (
@@ -95,6 +97,7 @@ export function AcademicDAW() {
           excellence scholarship from the Spanish Army. You can explore some of
           my most relevant academic projects on my GitHub profile.
         </p>
+        <img src={ministerioEducacion} alt="" className="w-25 h-25 align-self-center"/>
       </div>
     </>
   );
