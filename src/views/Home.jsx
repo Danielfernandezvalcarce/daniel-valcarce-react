@@ -3,7 +3,7 @@ import "./styles/HomeStyle.css";
 import { Resume } from "../components/Resume";
 import Flecha from "../assets/img/flecha.png";
 
-function Home() {
+export function Home() {
 
   const scrollToSelector = (event, selector) => {
     event.preventDefault();
@@ -40,5 +40,3 @@ function Home() {
     </>
   );
 }
-
-export default Home;
