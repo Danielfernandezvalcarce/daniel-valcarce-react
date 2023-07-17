@@ -15,5 +15,3 @@ export function Academic() {
         </>
     );
 }
-
-export default Academic;
