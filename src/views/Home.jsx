@@ -15,7 +15,7 @@ function Home() {
   };
 
   const handleImageClick = (event) => {
-    scrollToSelector(event, '#resume'); // Reemplaza '#resume' con el ID o selector de tu elemento 'Resume'
+    scrollToSelector(event, '#resume');
   };
 
   return (
