@@ -27,7 +27,7 @@
 .technologies{
     display: flex;
     flex-direction: row;
-    width: max-content;
+    width: 100%;
     margin-top: 1%;
 }
 

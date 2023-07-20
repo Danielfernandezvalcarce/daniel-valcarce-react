@@ -8,3 +8,25 @@
     margin-bottom: 2%;
     color: white;
 }
+
+@media screen and (max-width: 750px) {
+    #mainExperience{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+    }
+
+    #experienceTitle{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 2;
+        text-align: center;
+        margin-top: 8%;
+        margin-bottom: 2%;
+        color: white;
+        width: 80%;
+    }
+}
