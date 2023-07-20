@@ -33,5 +33,14 @@
       margin-top: 5%; /* Ajusta los márgenes según lo necesites */
       margin-bottom: 1%; /* Ajusta los márgenes según lo necesites */
     }
+
+    #SFSWD{
+      display: flex;
+      flex-direction: column;
+    }
+
+    #flecha{
+      width: 100px;
+    }
   }
   
