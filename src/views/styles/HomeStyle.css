@@ -25,4 +25,13 @@
       transform: translateY(40px);
     }
   }
+
+  @media screen and (max-width: 630px) {
+    /* Reducir el tamaño de la fuente en el encabezado */
+    #nombreMain {
+      font-size: 60px; /* Ajusta el tamaño de la fuente según lo necesites */
+      margin-top: 5%; /* Ajusta los márgenes según lo necesites */
+      margin-bottom: 1%; /* Ajusta los márgenes según lo necesites */
+    }
+  }
   
