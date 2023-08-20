@@ -1,4 +1,5 @@
 import "./styles/ContactStyle.css";
+import { ContactForm } from "../components/ContactUsForm";
 
 export function Contact() {
   return (
@@ -7,25 +8,12 @@ export function Contact() {
         <section id="contact">
           <h2>Contact</h2>
           <p>
-            If you would like to get in touch, please feel free to send me an
-            email or connect with me on LinkedIn.
+            If you would like to get in touch, please feel free to send me a message or contact me on LinkedIn.
           </p>
 
           <div className="contact-details">
             <div className="elementoContacto">
-              <h3>Email</h3>
-              <p>
-                <a href="mailto:dvalcarce93@gmail.com">dvalcarce93@gmail.com</a>
-              </p>
-            </div>
-
-            <div className="elementoContacto">
-              <h3>LinkedIn</h3>
-              <p>
-                <a href="https://www.linkedin.com/in/daniel-f-valcarce/">
-                  Daniel Valcarce
-                </a>
-              </p>
+              <ContactForm></ContactForm>
             </div>
           </div>
         </section>
